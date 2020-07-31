@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Ariel,Helvetica,sans-serif;
+	margin: 20px auto;
+	width: 90%;
+}
+header{
+	font-size: 2em;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+article{
+	background-color: grey;
+	width: 30%;
+	min-height: 200px;
+	float: left;
+	border: 2px solid black;
+	margin:10px 5px;
+	
+}
+.dish1 h2{
+	font-size: 1.25em;
+	border: 1px black solid;
+	padding: 10px;
+	float: right;
+	background-color: pink;
+
+}
+.dish1 p{
+	clear: right;
+	padding: 10px 20px;
+
+}
+.dish2 h2{
+	font-size: 1.25em;
+	border: 1px black solid;
+	padding: 10px;
+	float: right;
+	background-color: #A5243D;
+
+}
+.dish2 p{
+	clear: right;
+	padding: 10px 20px;
+}
+.dish3 h2{
+	font-size: 1.25em;
+	border: 1px black solid;
+	padding: 10px;
+	float: right;
+	background-color: #FABC2A;
+
+}
+.dish3 p{
+	clear: right;
+	padding: 10px 20px;
+
+}
+
+@media (max-width: 767px){
+	.dish1,.dish2,.dish3{
+		
+		width: 90%;
+		
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.dish1,.dish2{
+		
+		width: 45%;
+		
+	}
+	.dish3{
+
+		width: 90%;
+
+	}
+}
