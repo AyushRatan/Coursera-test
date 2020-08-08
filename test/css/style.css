@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F4B266;
+}
+nav{
+	background-color: #211A1E;
+}
+.menu{
+	margin: 30px;
+	text-align: center;
+}
+.item1{
+	text-align: center;
+	background-color: #211A1E;
+	color: white;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.item2{
+	text-align: center;
+	background-color: #211A1E;
+	color: white;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.item3{
+	text-align: center;
+	background-color: #211A1E;
+	color: white;
+	padding: 20px;
+	margin-bottom: 40px;
+}
