@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 body{
 	background-color: #F4B266;
@@ -11,6 +12,9 @@ nav{
 .menu{
 	margin: 30px;
 	text-align: center;
+}
+.row{
+	justify-content: space-around;
 }
 .item1{
 	text-align: center;
@@ -32,4 +36,9 @@ nav{
 	color: white;
 	padding: 20px;
 	margin-bottom: 40px;
+}
+@media(min-width: 768px){
+	button{
+		display: none;
+	}
 }
